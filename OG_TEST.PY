@@ -247,7 +247,7 @@ class SpeedSnookerUI:
             elif self.state == "FRAME":
                 if event.key in (pygame.K_BACKSPACE, pygame.K_DELETE):
                     self.back_to_menu()
-                elif event.key == pygame.K_SPACE and self.frame:
+                elif event.key == pygame.K_t and self.frame:
                     self.frame.toggle_run()
 
     def draw_menu(self) -> None:
