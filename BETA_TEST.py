@@ -338,8 +338,8 @@ class SpeedSnookerUI:
             raise SystemExit
 
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_ESCAPE:
-                raise SystemExit
+            #if event.key == pygame.K_ESCAPE:
+                #raise SystemExit
 
             # MENU navigation + selection
             if self.state == "MENU":
